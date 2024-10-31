@@ -1,0 +1,1389 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sellsy\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-08 11:36+0100\n"
+"PO-Revision-Date: 2022-12-08 11:40+0100\n"
+"Last-Translator: Michael <contact@eewee.fr>\n"
+"Language-Team: Michael <contact@eewee.fr>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;_c;_x;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: controllers/AdminController.php:48 view/ticketFormAdd.php:54
+#: view/ticketFormEdit.php:54
+msgid "Support ticket"
+msgstr "Ticket support"
+
+#: controllers/AdminController.php:49 controllers/ShortcodeController.php:213
+#: view/contactForm.php:13 view/contactFormEdit.php:134 view/manuel.php:23
+#: view/manuel.php:48
+msgid "Contact"
+msgstr "Contact"
+
+#: controllers/AdminController.php:50 forms/FContactFormEdit.php:71
+#: view/settingEdit.php:28
+msgid "Setting"
+msgstr "Configuration"
+
+#: controllers/ContactController.php:133 models/TSellsyAddresses.php:84
+msgid "Main address"
+msgstr "Adresse principale"
+
+#: controllers/ContactController.php:175
+msgid ""
+"You must confirm that you are not a robot (check the box: \"I am not a robot"
+"\")"
+msgstr ""
+"Vous devez confirmer que vous n'êtes pas un robot (cocher la case : \"Je ne "
+"suis pas un robot\")"
+
+#: controllers/ContactController.php:199 controllers/ContactController.php:209
+#: controllers/ShortcodeController.php:91
+#: controllers/ShortcodeController.php:101
+msgid ""
+"Something went wrong. Please try again. If the case persists, contact "
+"support."
+msgstr ""
+"Un problème est survenu. Merci d’essayer de nouveau. Si le cas persiste, "
+"contacter le support."
+
+#: controllers/ContactController.php:280
+msgid ""
+"You must have JavaScript enabled in your browser to use this form.<br>Please "
+"enable JavaScript and then reload this page."
+msgstr ""
+"Vous devez disposer de Javascript activé sur votre navigateur pour utiliser "
+"ce formulaire.<br>Merci d'activer Javascript et de recharger cette page."
+
+#: controllers/ContactController.php:285
+msgid "The company field is required"
+msgstr "Le champ société est obligatoire"
+
+#: controllers/ContactController.php:288
+msgid "The siren field is required"
+msgstr "Le champ siren est obligatoire"
+
+#: controllers/ContactController.php:291
+msgid "The siret field is required"
+msgstr "Le champ siret est obligatoire"
+
+#: controllers/ContactController.php:294
+msgid "The RCS field is required"
+msgstr "Le champ RCS est obligatoire"
+
+#: controllers/ContactController.php:298
+msgid "The civility field is required"
+msgstr "Le champ civilité est obligatoire"
+
+#: controllers/ContactController.php:301
+msgid "The firstname field is required"
+msgstr "Le champ prénom est obligatoire"
+
+#: controllers/ContactController.php:304
+msgid "The phone field is required"
+msgstr "Le champ téléphone est obligatoire"
+
+#: controllers/ContactController.php:307
+msgid "The mobile field is required"
+msgstr "Le champ mobile est obligatoire"
+
+#: controllers/ContactController.php:310
+msgid "The function field is required"
+msgstr "Le champ fonction est obligatoire"
+
+#: controllers/ContactController.php:314
+msgid "The street field is required"
+msgstr "Le champ rue est obligatoire"
+
+#: controllers/ContactController.php:317
+msgid "The zip field is required"
+msgstr "Le champ code postal est obligatoire"
+
+#: controllers/ContactController.php:320
+msgid "The town field is required"
+msgstr "Le champ ville est obligatoire"
+
+#: controllers/ContactController.php:323
+msgid "The country field is required"
+msgstr "Le champ pays est obligatoire"
+
+#: controllers/ContactController.php:327
+msgid "The website field is required"
+msgstr "Le champ site web est obligatoire"
+
+#: controllers/ContactController.php:330
+msgid "The note field is required"
+msgstr "Le champ note est obligatoire"
+
+#: controllers/ContactController.php:492
+msgid "The lastname field is required"
+msgstr "Le champ nom est obligatoire"
+
+#: controllers/ContactController.php:496
+msgid "The email field is required"
+msgstr "Le champ email est obligatoire"
+
+#: controllers/ContactController.php:500
+#, php-format
+msgid "The %s field is required"
+msgstr "Le champ %s est obligatoire"
+
+#: controllers/ContactController.php:511
+msgid "The email field is invalid (domain not allowed)."
+msgstr "Le champ email est invalide (domaine non autorisé)."
+
+#: controllers/ContactController.php:832
+msgid "Error"
+msgstr "Erreur"
+
+#: controllers/ContactController.php:832
+msgid "The entry time has expired, please try again"
+msgstr "Le délai de saisie a expiré, merci essayez de nouveau"
+
+#: controllers/ContactController.php:1268
+#: controllers/ContactController.php:1528
+#: controllers/ShortcodeController.php:251
+msgid "Error registration."
+msgstr "Erreur d'enregistrement."
+
+#: controllers/ContactController.php:1519
+#: controllers/ShortcodeController.php:242
+msgid "Thank you for your message, it has been sent."
+msgstr "Merci, votre message a bien été envoyé."
+
+#: controllers/ContactController.php:1537
+#: controllers/ShortcodeController.php:260
+msgid "A field contains an error."
+msgstr "Un champ contient une erreur."
+
+#: controllers/ContactController.php:1539
+#: controllers/ShortcodeController.php:263
+msgid "Several fields contain an error."
+msgstr "Plusieurs champs contiennent une erreur."
+
+#: controllers/SellsyCustomFieldsController.php:877
+#: controllers/SellsyCustomFieldsController.php:1825
+#: controllers/SellsyCustomFieldsController.php:1968
+#: controllers/SellsyCustomFieldsController.php:2339
+#: controllers/SellsyCustomFieldsController.php:2435
+#: controllers/ShortcodeController.php:721
+msgid "Select value"
+msgstr "Sélectionnez une valeur"
+
+#: controllers/SellsyCustomFieldsController.php:908
+#: controllers/SellsyCustomFieldsController.php:997
+#: controllers/SellsyCustomFieldsController.php:1133
+#: controllers/SellsyCustomFieldsController.php:1243
+#: controllers/SellsyCustomFieldsController.php:1350
+#: controllers/SellsyCustomFieldsController.php:1436
+#: controllers/SellsyCustomFieldsController.php:1527
+#: controllers/SellsyCustomFieldsController.php:1629
+#: controllers/SellsyCustomFieldsController.php:1750
+#: controllers/SellsyCustomFieldsController.php:1861
+#: controllers/SellsyCustomFieldsController.php:2003
+#: controllers/SellsyCustomFieldsController.php:2126
+#: controllers/SellsyCustomFieldsController.php:2226
+#: controllers/SellsyCustomFieldsController.php:2369
+#: controllers/SellsyCustomFieldsController.php:2467
+msgid "Field is required"
+msgstr "Champ requis"
+
+#: controllers/SellsyCustomFieldsController.php:1008
+#: controllers/SellsyCustomFieldsController.php:1016
+#: controllers/SellsyCustomFieldsController.php:1144
+#: controllers/SellsyCustomFieldsController.php:1152
+#: controllers/SellsyCustomFieldsController.php:1254
+#: controllers/SellsyCustomFieldsController.php:1262
+#: controllers/SellsyCustomFieldsController.php:1534
+#: controllers/SellsyCustomFieldsController.php:1542
+#: controllers/SellsyCustomFieldsController.php:1636
+#: controllers/SellsyCustomFieldsController.php:1644
+#: controllers/SellsyCustomFieldsController.php:1873
+#: controllers/SellsyCustomFieldsController.php:1881
+#: controllers/SellsyCustomFieldsController.php:2015
+#: controllers/SellsyCustomFieldsController.php:2023
+msgid "Your value is too small"
+msgstr "Votre valeur est trop petite"
+
+#: controllers/SellsyCustomFieldsController.php:1008
+#: controllers/SellsyCustomFieldsController.php:1016
+#: controllers/SellsyCustomFieldsController.php:1144
+#: controllers/SellsyCustomFieldsController.php:1152
+#: controllers/SellsyCustomFieldsController.php:1254
+#: controllers/SellsyCustomFieldsController.php:1262
+#: controllers/SellsyCustomFieldsController.php:1534
+#: controllers/SellsyCustomFieldsController.php:1542
+#: controllers/SellsyCustomFieldsController.php:1636
+#: controllers/SellsyCustomFieldsController.php:1644
+#: controllers/SellsyCustomFieldsController.php:1873
+#: controllers/SellsyCustomFieldsController.php:1881
+#: controllers/SellsyCustomFieldsController.php:2015
+#: controllers/SellsyCustomFieldsController.php:2023
+#: controllers/SellsyCustomFieldsController.php:2233
+#: controllers/SellsyCustomFieldsController.php:2241
+msgid "Min"
+msgstr "Min"
+
+#: controllers/SellsyCustomFieldsController.php:1010
+#: controllers/SellsyCustomFieldsController.php:1022
+#: controllers/SellsyCustomFieldsController.php:1146
+#: controllers/SellsyCustomFieldsController.php:1158
+#: controllers/SellsyCustomFieldsController.php:1256
+#: controllers/SellsyCustomFieldsController.php:1268
+#: controllers/SellsyCustomFieldsController.php:1536
+#: controllers/SellsyCustomFieldsController.php:1548
+#: controllers/SellsyCustomFieldsController.php:1638
+#: controllers/SellsyCustomFieldsController.php:1650
+#: controllers/SellsyCustomFieldsController.php:1875
+#: controllers/SellsyCustomFieldsController.php:1887
+#: controllers/SellsyCustomFieldsController.php:2017
+#: controllers/SellsyCustomFieldsController.php:2029
+msgid "Your value is too big"
+msgstr "Votre valeur est trop grande"
+
+#: controllers/SellsyCustomFieldsController.php:1010
+#: controllers/SellsyCustomFieldsController.php:1022
+#: controllers/SellsyCustomFieldsController.php:1146
+#: controllers/SellsyCustomFieldsController.php:1158
+#: controllers/SellsyCustomFieldsController.php:1256
+#: controllers/SellsyCustomFieldsController.php:1268
+#: controllers/SellsyCustomFieldsController.php:1536
+#: controllers/SellsyCustomFieldsController.php:1548
+#: controllers/SellsyCustomFieldsController.php:1638
+#: controllers/SellsyCustomFieldsController.php:1650
+#: controllers/SellsyCustomFieldsController.php:1875
+#: controllers/SellsyCustomFieldsController.php:1887
+#: controllers/SellsyCustomFieldsController.php:2017
+#: controllers/SellsyCustomFieldsController.php:2029
+#: controllers/SellsyCustomFieldsController.php:2235
+#: controllers/SellsyCustomFieldsController.php:2247
+msgid "Max"
+msgstr "Max"
+
+#: controllers/SellsyCustomFieldsController.php:1352
+msgid "Field is not a email"
+msgstr "Le champ n’est pas un email"
+
+#: controllers/SellsyCustomFieldsController.php:1438
+msgid "Field is not a url"
+msgstr "Le champ n’est pas une URL"
+
+#: controllers/SellsyCustomFieldsController.php:1714
+msgid "Yes"
+msgstr "Oui"
+
+#: controllers/SellsyCustomFieldsController.php:1719
+msgid "No"
+msgstr "Non"
+
+#: controllers/SellsyCustomFieldsController.php:1823
+msgid "Currency"
+msgstr "Devise"
+
+#: controllers/SellsyCustomFieldsController.php:1966
+msgid "Unit"
+msgstr "Unité"
+
+#: controllers/SellsyCustomFieldsController.php:2233
+#: controllers/SellsyCustomFieldsController.php:2241
+msgid "You must check more box"
+msgstr "Vous devez cocher plus de case"
+
+#: controllers/SellsyCustomFieldsController.php:2235
+#: controllers/SellsyCustomFieldsController.php:2247
+msgid "You must check less box"
+msgstr "Vous devez cocher moins de case"
+
+#: controllers/SellsyCustomFieldsController.php:2311
+msgid "Item"
+msgstr "Produit"
+
+#: controllers/SellsyCustomFieldsController.php:2313
+msgid "Service"
+msgstr "Service"
+
+#: controllers/ShortcodeController.php:168
+msgid "email"
+msgstr "email"
+
+#: controllers/ShortcodeController.php:172
+msgid "name"
+msgstr "nom"
+
+#: controllers/ShortcodeController.php:176
+msgid "message"
+msgstr "message"
+
+#: controllers/ShortcodeController.php:188 forms/FSettingEdit.php:184
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: controllers/ShortcodeController.php:201
+msgid "Consumer"
+msgstr "Consumer"
+
+#: controllers/ShortcodeController.php:204
+#: controllers/ShortcodeController.php:215
+#: controllers/ShortcodeController.php:297
+#: controllers/ShortcodeController.php:791
+msgid "Message"
+msgstr "Message"
+
+#: controllers/ShortcodeController.php:286
+msgid "Subject"
+msgstr "Sujet"
+
+#: controllers/ShortcodeController.php:289
+#: controllers/ShortcodeController.php:668 controllers/ToolsController.php:151
+#: forms/FContactFormEdit.php:585 forms/FContactFormEdit.php:723
+#: view/contactFormEdit.php:23
+msgid "Email"
+msgstr "Email"
+
+#: controllers/ShortcodeController.php:293 forms/FContactFormEdit.php:84
+#: forms/FContactFormEdit.php:367 forms/FTicketFormAdd.php:63
+#: forms/FTicketFormEdit.php:55 view/contactForm.php:47 view/ticketForm.php:47
+#: view/ticketFormAdd.php:18 view/ticketFormEdit.php:18
+msgid "Name"
+msgstr "Nom"
+
+#: controllers/ShortcodeController.php:574
+msgid "Loading"
+msgstr "Chargement"
+
+#: controllers/ShortcodeController.php:610
+#: controllers/ShortcodeController.php:1028
+msgid "Company name"
+msgstr "Société"
+
+#: controllers/ShortcodeController.php:615 controllers/ToolsController.php:117
+#: forms/FContactFormEdit.php:397
+msgid "Siren"
+msgstr "Siren"
+
+#: controllers/ShortcodeController.php:620 controllers/ToolsController.php:121
+#: forms/FContactFormEdit.php:427
+msgid "Siret"
+msgstr "Siret"
+
+#: controllers/ShortcodeController.php:625 controllers/ToolsController.php:125
+#: forms/FContactFormEdit.php:457
+msgid "RCS"
+msgstr "RCS"
+
+#: controllers/ShortcodeController.php:648 controllers/ToolsController.php:139
+#: forms/FContactFormEdit.php:506
+msgid "Civility"
+msgstr "Civilité"
+
+#: controllers/ShortcodeController.php:651 controllers/ToolsController.php:137
+msgid "Mr"
+msgstr "Mr"
+
+#: controllers/ShortcodeController.php:652 controllers/ToolsController.php:133
+msgid "Miss"
+msgstr "Mlle"
+
+#: controllers/ShortcodeController.php:653 controllers/ToolsController.php:135
+msgid "Mrs"
+msgstr "Mme"
+
+#: controllers/ShortcodeController.php:658 controllers/ToolsController.php:143
+#: forms/FContactFormEdit.php:536 view/contactFormEdit.php:20
+msgid "Lastname"
+msgstr "Nom"
+
+#: controllers/ShortcodeController.php:663 controllers/ToolsController.php:147
+#: forms/FContactFormEdit.php:555
+msgid "Firstname"
+msgstr "Prénom"
+
+#: controllers/ShortcodeController.php:677 controllers/ToolsController.php:155
+#: forms/FContactFormEdit.php:604 forms/FContactFormEdit.php:725
+msgid "Phone"
+msgstr "Téléphone"
+
+#: controllers/ShortcodeController.php:680
+msgid "Your phone is not valid."
+msgstr "Votre téléphone n’est pas valide."
+
+#: controllers/ShortcodeController.php:689 controllers/ToolsController.php:159
+#: forms/FContactFormEdit.php:634
+msgid "Mobile"
+msgstr "Mobile"
+
+#: controllers/ShortcodeController.php:692
+msgid "Your mobile is not valid."
+msgstr "Votre mobile n’est pas valide."
+
+#: controllers/ShortcodeController.php:697 controllers/ToolsController.php:163
+#: forms/FContactFormEdit.php:664
+msgid "Function"
+msgstr "Fonction"
+
+#: controllers/ShortcodeController.php:704 controllers/ToolsController.php:236
+#: forms/FContactFormEdit.php:830
+msgid "Address"
+msgstr "Adresse"
+
+#: controllers/ShortcodeController.php:709 controllers/ToolsController.php:240
+#: forms/FContactFormEdit.php:860
+msgid "Zip"
+msgstr "Code postal"
+
+#: controllers/ShortcodeController.php:714 controllers/ToolsController.php:244
+#: forms/FContactFormEdit.php:890
+msgid "Town"
+msgstr "Ville"
+
+#: controllers/ShortcodeController.php:719
+#: controllers/ShortcodeController.php:736 controllers/ToolsController.php:250
+#: forms/FContactFormEdit.php:920
+msgid "Country"
+msgstr "Pays"
+
+#: controllers/ShortcodeController.php:728
+msgid "Selection"
+msgstr "Sélection"
+
+#: controllers/ShortcodeController.php:762
+msgid "website"
+msgstr "site web"
+
+#: controllers/ShortcodeController.php:842 forms/FContactFormEdit.php:770
+msgid "I agree to be contacted."
+msgstr "J’accepte d’être contacté."
+
+#: controllers/ShortcodeController.php:870 forms/FContactFormEdit.php:778
+msgid "I agree to be contacted by email."
+msgstr "J’accepte d’être contacté par email."
+
+#: controllers/ShortcodeController.php:880 forms/FContactFormEdit.php:786
+msgid "I agree to be contacted by sms."
+msgstr "J’accepte d’être contacté par sms."
+
+#: controllers/ShortcodeController.php:890 forms/FContactFormEdit.php:794
+msgid "I agree to be contacted by phone."
+msgstr "J’accepte d’être contacté par téléphone."
+
+#: controllers/ShortcodeController.php:900 forms/FContactFormEdit.php:802
+msgid "I agree to be contacted by mail."
+msgstr "J’accepte d’être contacté par courrier."
+
+#: controllers/ShortcodeController.php:910 forms/FContactFormEdit.php:810
+msgid "I accept that the data is used to offer me suitable offers."
+msgstr "J’accepte que mes données soient utilisées par des campagnes ciblées."
+
+#: controllers/ShortcodeController.php:927 forms/FContactFormEdit.php:762
+msgid "Subscribe"
+msgstr "S’abonner"
+
+#: controllers/ShortcodeController.php:947
+msgid "I accept the conditions."
+msgstr "Forcer l’utilisateur à accepter les conditions."
+
+#: controllers/ShortcodeController.php:976
+msgid "Validate"
+msgstr "Valider"
+
+#: controllers/ToolsController.php:48
+msgid "Options recorded."
+msgstr "Options enregistrées."
+
+#: controllers/ToolsController.php:51
+msgid "ERROR"
+msgstr "ERREUR"
+
+#: controllers/ToolsController.php:51
+msgid "Update unrealized"
+msgstr "Mise à jour non réalisée"
+
+#: controllers/ToolsController.php:112
+msgid "Name society"
+msgstr "Nom société"
+
+#: controllers/ToolsController.php:167
+msgid "Site web"
+msgstr "Site web"
+
+#: controllers/ToolsController.php:171 forms/FContactFormEdit.php:981
+msgid "Note"
+msgstr "Note"
+
+#: controllers/ToolsController.php:212 forms/FContactFormEdit.php:212
+#: view/contactFormEdit.php:37
+msgid "Pipeline"
+msgstr "Pipeline"
+
+#: controllers/ToolsController.php:217 view/contactFormEdit.php:40
+msgid "Step"
+msgstr "Etape"
+
+#: controllers/ToolsController.php:221
+msgid "Dealine"
+msgstr "Date d’échéance"
+
+#: controllers/ToolsController.php:225 forms/FContactFormEdit.php:287
+msgid "Potential"
+msgstr "Potentiel"
+
+#: controllers/ToolsController.php:229 forms/FContactFormEdit.php:304
+msgid "Probability"
+msgstr "Probabilité"
+
+#: controllers/ToolsController.php:269
+msgid "Request for a new prospect :"
+msgstr "Requête pour un nouveau prospect :"
+
+#: forms/FContactFormEdit.php:51 forms/FContactFormEdit.php:1286
+#: forms/FTicketFormAdd.php:49 forms/FTicketFormAdd.php:131
+msgid "Save"
+msgstr "Enregistrer"
+
+#: forms/FContactFormEdit.php:52 forms/FContactFormEdit.php:1287
+#: forms/FSettingEdit.php:32 forms/FSettingEdit.php:238
+#: forms/FTicketFormAdd.php:50 forms/FTicketFormAdd.php:132
+#: forms/FTicketFormEdit.php:34 forms/FTicketFormEdit.php:130
+#: view/contactFormDuplicate.php:26
+msgid "Back"
+msgstr "Retour"
+
+#: forms/FContactFormEdit.php:57 forms/FTicketFormEdit.php:39
+#: view/contactForm.php:56 view/contactForm.php:93 view/ticketForm.php:56
+#: view/ticketForm.php:90
+msgid "Edit"
+msgstr "Editer"
+
+#: forms/FContactFormEdit.php:58 forms/FTicketFormAdd.php:56
+#: forms/FTicketFormEdit.php:40
+msgid "Help"
+msgstr "Aide"
+
+#: forms/FContactFormEdit.php:76 view/contactForm.php:50 view/ticketForm.php:50
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: forms/FContactFormEdit.php:88 forms/FTicketFormAdd.php:67
+#: forms/FTicketFormEdit.php:59
+msgid "Name for your back-office"
+msgstr "Nom pour votre back-office"
+
+#: forms/FContactFormEdit.php:93
+msgid "Add on Sellsy"
+msgstr "Ajouter sur Sellsy"
+
+#: forms/FContactFormEdit.php:105 view/manuel.php:57
+msgid "Prospect"
+msgstr "Prospect"
+
+#: forms/FContactFormEdit.php:106
+msgid "Prospect and opportunity"
+msgstr "Prospect et opportunité"
+
+#: forms/FContactFormEdit.php:113 forms/FSettingEdit.php:205
+#: forms/FTicketFormAdd.php:103 forms/FTicketFormEdit.php:100
+msgid "Status"
+msgstr "Etat"
+
+#: forms/FContactFormEdit.php:135 forms/FSettingEdit.php:89 view/manuel.php:25
+#: view/manuel.php:91
+msgid "Clearbit"
+msgstr "Clearbit"
+
+#: forms/FContactFormEdit.php:164
+msgid "Opportunity information"
+msgstr "Information opportunité"
+
+#: forms/FContactFormEdit.php:164
+msgid "Only if you use the option \"add prospect and opportunity\""
+msgstr ""
+"Seulement si vous utilisez l'option \"Ajouter prospect et opportunité\""
+
+#: forms/FContactFormEdit.php:171
+msgid "Name of opportunity"
+msgstr "Nom de l'opportunité"
+
+#: forms/FContactFormEdit.php:174 forms/FContactFormEdit.php:951
+msgid "Website"
+msgstr "Site web"
+
+#: forms/FContactFormEdit.php:176
+msgid "+ firstname lastname"
+msgstr "+ prénom nom"
+
+#: forms/FContactFormEdit.php:181
+msgid "Opportunity source"
+msgstr "Source d'opportunité"
+
+#: forms/FContactFormEdit.php:204 forms/FContactFormEdit.php:255
+#: forms/FContactFormEdit.php:262
+msgid "---- selection ----"
+msgstr "---- selection ----"
+
+#: forms/FContactFormEdit.php:270
+msgid "Deadline (in days)"
+msgstr "Date d’échéance (en jours)"
+
+#: forms/FContactFormEdit.php:321 forms/FTicketFormAdd.php:81
+#: forms/FTicketFormEdit.php:73
+msgid "Assigned to"
+msgstr "Assigné à"
+
+#: forms/FContactFormEdit.php:330 forms/FTicketFormEdit.php:82
+msgid "Nobody"
+msgstr "Personne"
+
+#: forms/FContactFormEdit.php:348 forms/FContactFormEdit.php:487
+#: forms/FContactFormEdit.php:694
+msgid "Smart-tag"
+msgstr "Smart-tag"
+
+#: forms/FContactFormEdit.php:362
+msgid "Company information"
+msgstr "Information société"
+
+#: forms/FContactFormEdit.php:384 forms/FContactFormEdit.php:414
+#: forms/FContactFormEdit.php:444 forms/FContactFormEdit.php:474
+#: forms/FContactFormEdit.php:523 forms/FContactFormEdit.php:572
+#: forms/FContactFormEdit.php:621 forms/FContactFormEdit.php:651
+#: forms/FContactFormEdit.php:681 forms/FContactFormEdit.php:847
+#: forms/FContactFormEdit.php:877 forms/FContactFormEdit.php:907
+#: forms/FContactFormEdit.php:937 forms/FContactFormEdit.php:968
+#: forms/FContactFormEdit.php:998
+msgid "Required"
+msgstr "Obligatoire"
+
+#: forms/FContactFormEdit.php:501
+msgid "Contact information"
+msgstr "Information contact"
+
+#: forms/FContactFormEdit.php:708 forms/FContactFormEdit.php:713
+msgid "Marketing"
+msgstr "Marketing"
+
+#: forms/FContactFormEdit.php:724
+msgid "Sms"
+msgstr "Sms"
+
+#: forms/FContactFormEdit.php:726
+msgid "Mail"
+msgstr "Courrier"
+
+#: forms/FContactFormEdit.php:727
+msgid "Customized marketing"
+msgstr "Marketing personnalisé"
+
+#: forms/FContactFormEdit.php:824
+msgid "Other"
+msgstr "Autre"
+
+#: forms/FContactFormEdit.php:1011
+msgid "Url redirection"
+msgstr "Url de redirection"
+
+#: forms/FContactFormEdit.php:1016
+msgid ""
+"Redirection URL following the validation of the form (ex : https://www."
+"your_website.com/validation_form)."
+msgstr ""
+"Url de redirection suite à la validation du formulaire (ex : https://www."
+"your_website.com/validation_form)"
+
+#: forms/FContactFormEdit.php:1033
+msgid "Form notification"
+msgstr "Notification du formulaire"
+
+#: forms/FContactFormEdit.php:1039
+msgid "Activate email notification"
+msgstr "Activer la notification par email"
+
+#: forms/FContactFormEdit.php:1051
+msgid ""
+"Receive an email with the information from the validated form on your "
+"website."
+msgstr ""
+"Recevoir un email avec les informations du formulaire validé sur votre site "
+"web."
+
+#: forms/FContactFormEdit.php:1057
+msgid "Email recipient"
+msgstr "Destinataire de l’email"
+
+#: forms/FContactFormEdit.php:1060
+msgid "your email"
+msgstr "votre email"
+
+#: forms/FContactFormEdit.php:1065
+msgid "Email subject"
+msgstr "Sujet de l’email"
+
+#: forms/FContactFormEdit.php:1077
+msgid "No prefix"
+msgstr "Aucun prefix"
+
+#: forms/FContactFormEdit.php:1078
+msgid "Count [#123]"
+msgstr "Compteur [#123]"
+
+#: forms/FContactFormEdit.php:1082
+msgid "your subject"
+msgstr "votre sujet"
+
+#: forms/FContactFormEdit.php:1084
+msgid "The counter will automatically increment with each new request."
+msgstr "Le compteur s’incrémentera automatiquement à chaque nouvelle demande."
+
+#: forms/FContactFormEdit.php:1108
+msgid "Submit form"
+msgstr "Soumission du formulaire"
+
+#: forms/FContactFormEdit.php:1114
+msgid "Accept the conditions"
+msgstr "Accepter les conditions"
+
+#: forms/FContactFormEdit.php:1129
+msgid "Condition label"
+msgstr "Label des conditions"
+
+#: forms/FContactFormEdit.php:1135
+msgid ""
+"Explanatory text of the check box for the submission of the form (TOS, "
+"GDPR, ...)."
+msgstr ""
+"Texte explicatif de la case à cocher pour la soumission du formulaire (CGU, "
+"CGV, RGPD, …)."
+
+#: forms/FContactFormEdit.php:1141
+msgid "Label of the submission button"
+msgstr "Label du bouton de soumission"
+
+#: forms/FContactFormEdit.php:1144
+msgid "Send request"
+msgstr "Envoyer la demande"
+
+#: forms/FContactFormEdit.php:1155
+msgid "Custom fields"
+msgstr "Champs personnalisés"
+
+#: forms/FContactFormEdit.php:1160
+msgid "Add custom fields"
+msgstr "Ajouter champs personnalisés"
+
+#: forms/FContactFormEdit.php:1268
+msgid "Required field"
+msgstr "Champ requis"
+
+#: forms/FContactFormEdit.php:1270
+msgid "Required fields"
+msgstr "Champs requis"
+
+#: forms/FContactFormEdit.php:1280
+msgid "required"
+msgstr "obligatoire"
+
+#: forms/FSettingEdit.php:31 forms/FSettingEdit.php:237
+#: forms/FTicketFormEdit.php:33 forms/FTicketFormEdit.php:129
+msgid "Update"
+msgstr "Mise à jour"
+
+#: forms/FSettingEdit.php:36
+msgid "Edit Sellsy API"
+msgstr "Edition Sellsy API"
+
+#: forms/FSettingEdit.php:40
+msgid "Get your API Keys"
+msgstr "Obtenir vos clefs API"
+
+#: forms/FSettingEdit.php:46
+msgid "Consumer token"
+msgstr "Consumer token"
+
+#: forms/FSettingEdit.php:50 forms/FSettingEdit.php:59
+#: forms/FSettingEdit.php:68 forms/FSettingEdit.php:77
+msgid "Get this information on Sellsy"
+msgstr "Obtenir cette information sur Sellsy"
+
+#: forms/FSettingEdit.php:55
+msgid "Consumer secret"
+msgstr "Consumer secret"
+
+#: forms/FSettingEdit.php:64
+msgid "Utilisateur token"
+msgstr "Utilisateur token"
+
+#: forms/FSettingEdit.php:73
+msgid "Utilisateur secret"
+msgstr "Utilisateur secret"
+
+#: forms/FSettingEdit.php:95
+msgid "API"
+msgstr "API"
+
+#: forms/FSettingEdit.php:100
+msgid "Get this information on Clearbit"
+msgstr "Obtenir cette information sur Clearbit"
+
+#: forms/FSettingEdit.php:114
+msgid "General"
+msgstr "Général"
+
+#: forms/FSettingEdit.php:120
+msgid "Tracking"
+msgstr "Tracking"
+
+#: forms/FSettingEdit.php:143
+msgid ""
+"The tracking option allows you to find all of the visitor's browsing history "
+"on the Sellsy prospect sheet."
+msgstr ""
+"L’option de tracking permet de retrouver l’ensemble de l’historique de "
+"navigation du visiteur sur la fiche prospect Sellsy."
+
+#: forms/FSettingEdit.php:145
+msgid ""
+"If you enable this option, you must notify your visitors by communicating "
+"through your cookie policy."
+msgstr ""
+"Si vous activez cette option, vous devez en avertir vos visiteurs en "
+"communiquant via votre charte de politique en matière de cookie."
+
+#: forms/FSettingEdit.php:158
+msgid "Edit reCaptcha"
+msgstr "Edition reCaptcha"
+
+#: forms/FSettingEdit.php:168
+msgid "Key website"
+msgstr "Key website"
+
+#: forms/FSettingEdit.php:176
+msgid "Key secret"
+msgstr "Key secret"
+
+#: forms/FTicketFormAdd.php:55 view/ticketForm.php:13
+msgid "Add"
+msgstr "Ajouter"
+
+#: forms/FTicketFormAdd.php:72 forms/FTicketFormEdit.php:64
+#: view/ticketFormAdd.php:21 view/ticketFormEdit.php:21
+msgid "Subject prefix"
+msgstr "Sujet préfixe"
+
+#: forms/FTicketFormAdd.php:76 forms/FTicketFormEdit.php:68
+msgid "Ex : [TICKET SUPPORT]"
+msgstr "Ex : [TICKET SUPPORT]"
+
+#: forms/FTicketFormEdit.php:47
+msgid "ID"
+msgstr "ID"
+
+#: helpers/FormHelpers.php:80
+msgid "Not available on the connector"
+msgstr "Indisponible sur le connecteur"
+
+#: helpers/FormHelpers.php:215
+msgid "All"
+msgstr "Tous"
+
+#: view/contactForm.php:39
+msgid ""
+"Here is the list of all contact forms available to you.<br>You can configure "
+"your forms by editing them.<br>They will allow you to create a prospect and "
+"a contact in Sellsy, when submitting the form of your site.<br>The shortcode "
+"is to copy / paste on a page / article to display the form."
+msgstr ""
+"Voici la liste de l’ensemble des formulaires de contact à votre disposition."
+"<br>Vous pouvez configurer vos formulaires en les éditants.<br>Ils vous "
+"permettront de créer un prospect et un contact dans Sellsy, lors de la "
+"soumission du formulaire de votre site.<br>Le shortcode est à copier/coller "
+"sur une page/article pour afficher le formulaire."
+
+#: view/contactForm.php:44 view/ticketForm.php:44
+msgid "id"
+msgstr "id"
+
+#: view/contactForm.php:53 view/ticketForm.php:53
+msgid "State"
+msgstr "Etat"
+
+#: view/contactForm.php:59 view/contactForm.php:97
+msgid "Duplicate"
+msgstr "Dupliquer"
+
+#: view/contactFormDuplicate.php:25
+msgid "Edit the new form"
+msgstr "Editer le nouveau formulaire"
+
+#: view/contactFormEdit.php:29
+msgid "Redirection Url"
+msgstr "Url de redirection"
+
+#: view/contactFormEdit.php:34
+msgid "Source"
+msgstr "Source"
+
+#: view/contactFormEdit.php:88 view/ticketFormAdd.php:42
+#: view/ticketFormEdit.php:37
+msgid "Required field : "
+msgstr "Champ requis : "
+
+#: view/contactFormEdit.php:90 view/ticketFormAdd.php:44
+#: view/ticketFormEdit.php:39
+msgid "Required fields : "
+msgstr "Champs requis : "
+
+#: view/contactFormEdit.php:97
+msgid "Required field for \"company information\" section : "
+msgstr "Champ obligatoire pour la section \"information société\" : "
+
+#: view/contactFormEdit.php:99
+msgid "Required fields for \"company information\" section : "
+msgstr "Champs obligatoires pour la section \"information société\" : "
+
+#: view/contactFormEdit.php:106
+msgid "Required field for \"contact information\" section : "
+msgstr "Champ obligatoire pour la section \"information contact\" : "
+
+#: view/contactFormEdit.php:108
+msgid "Required fields for \"contact information\" section : "
+msgstr "Champs obligatoires pour la section \"information contact\" : "
+
+#: view/contactFormEdit.php:115
+msgid "Required field for \"other\" section : "
+msgstr "Champ obligatoire pour la section \"autre\" : "
+
+#: view/contactFormEdit.php:117
+msgid "Required fields for \"other\" section : "
+msgstr "Champs obligatoires pour la section \"autre\" : "
+
+#: view/manuel.php:9
+msgid "Manual"
+msgstr "Manuel"
+
+#: view/manuel.php:12
+msgid "Version"
+msgstr "Version"
+
+#: view/manuel.php:22 view/manuel.php:31
+msgid "Ticket"
+msgstr "Ticket"
+
+#: view/manuel.php:24 view/manuel.php:77
+msgid "reCaptcha"
+msgstr "reCaptcha"
+
+#: view/manuel.php:34
+msgid ""
+"Add support ticket form on Wordpress, for create a support ticket to Sellsy."
+msgstr ""
+"Ajouter un formulaire de \"ticket de support\" sur WordPress, qui va créer "
+"un \"ticket de support\" sur Sellsy."
+
+#: view/manuel.php:36 view/manuel.php:65
+msgid "Examples"
+msgstr "Exemples"
+
+#: view/manuel.php:38 view/manuel.php:67
+msgid "Display the form"
+msgstr "Afficher le formulaire"
+
+#: view/manuel.php:51
+msgid "Add contact form on Wordpress, for create a prospect to Sellsy."
+msgstr ""
+"Ajouter un formulaire de contact WordPress, pour la création d’un prospect "
+"et d’une opportunité."
+
+#: view/manuel.php:52
+msgid "Email sent with"
+msgstr "Email envoyé avec"
+
+#: view/manuel.php:52
+msgid "(Settings > General)"
+msgstr "(Réglages > Général)"
+
+#: view/manuel.php:56
+msgid "Default setting"
+msgstr "Configuration par défaut"
+
+#: view/manuel.php:58
+msgid "Deadline (days):"
+msgstr "Date d’échéance (jours) :"
+
+#: view/manuel.php:59
+msgid "Name: website"
+msgstr "Nom : siteWeb"
+
+#: view/manuel.php:60
+msgid "Probability (%):"
+msgstr "Probabilité (%) :"
+
+#: view/manuel.php:61
+msgid "Tag: wordpress"
+msgstr "Tag: wordpress"
+
+#: view/manuel.php:79
+msgid "Create access"
+msgstr "Créer un accès"
+
+#: view/manuel.php:83
+msgid "Information about captcha"
+msgstr "Information a propos du captcha"
+
+#: view/manuel.php:93
+msgid "Token secret"
+msgstr "Token secret"
+
+#: view/manuel.php:98
+msgid "Need account type :"
+msgstr "Besoin d’un compte de type :"
+
+#: view/ticketForm.php:13
+msgid "Ticket support"
+msgstr "Ticket support"
+
+#: view/ticketForm.php:39
+msgid ""
+"Here is the list of all ticket forms available to you.<br>You can configure "
+"your forms by editing them.<br>They will allow you to create a ticket in "
+"Sellsy, when submitting the form of your site.<br>The shortcode is to copy / "
+"paste on a page / article to display the form."
+msgstr ""
+"Voici la liste de l’ensemble des formulaires de ticket à votre disposition."
+"<br>Vous pouvez configurer vos formulaires en les éditants.<br>Ils vous "
+"permettront de créer un ticket dans Sellsy, lors de la soumission du "
+"formulaire de votre site.<br>Le shortcode est à copier/coller sur une page/"
+"article pour afficher le formulaire."
+
+#, fuzzy
+#~| msgid "Your value is too big"
+#~ msgid "Your value is too bigg"
+#~ msgstr "Votre valeur est trop grande"
+
+#~ msgid "(Empty = no notification)"
+#~ msgstr "(Vide = pas de notification)"
+
+#~ msgid "Company required"
+#~ msgstr "Société obligatoire"
+
+#~ msgid "Siren required"
+#~ msgstr "Siren obligatoire"
+
+#~ msgid "Siret required"
+#~ msgstr "Siret obligatoire"
+
+#~ msgid "RCS required"
+#~ msgstr "RCS obligatoire"
+
+#~ msgid "Civility required"
+#~ msgstr "Civilité obligatoire"
+
+#~ msgid "Phone required"
+#~ msgstr "Téléphone obligatoire"
+
+#~ msgid "Mobile required"
+#~ msgstr "Mobile obligatoire"
+
+#~ msgid "Function required"
+#~ msgstr "Fonction obligatoire"
+
+#~ msgid "Street required"
+#~ msgstr "Rue obligatoire"
+
+#~ msgid "Zip required"
+#~ msgstr "Code postal obligatoire"
+
+#~ msgid "Town required"
+#~ msgstr "Ville obligatoire"
+
+#~ msgid "Country required"
+#~ msgstr "Pays obligatoire"
+
+#~ msgid "Website required"
+#~ msgstr "Site web obligatoire"
+
+#~ msgid "Note required"
+#~ msgstr "Note obligatoire"
+
+#~ msgid "lastname"
+#~ msgstr "nom"
+
+#~ msgid "Button"
+#~ msgstr "Bouton"
+
+#~ msgid "Please check and try again"
+#~ msgstr "Veuillez vérifier et essayer à nouveau"
+
+#~ msgid "Custom"
+#~ msgstr "Custom"
+
+#~ msgid "Required field for \"setting\" section : "
+#~ msgstr "Champ obligatoire pour la section \"configuration\" : "
+
+#~ msgid "Required fields for \"setting\" section : "
+#~ msgstr "Champs obligatoires pour la section\" configuration\" : "
+
+#~ msgid "Quantity custom fields"
+#~ msgstr "Quantité de champs personnalisés"
+
+#~ msgid "[PROSPECT] - sellsy"
+#~ msgstr "[PROSPECT] - sellsy"
+
+#~ msgid "Probability (percentage):"
+#~ msgstr "Probabilité (pourcentage) :"
+
+#~ msgid "Deadline: +1 month"
+#~ msgstr "Deadline : +1 mois"
+
+#~ msgid "Successful registration."
+#~ msgstr "Enregistrement fait."
+
+#~ msgid "Search"
+#~ msgstr "Recherche"
+
+#~ msgid "Ingredient"
+#~ msgstr "Ingredient"
+
+#~ msgid "Category"
+#~ msgstr "Categorie"
+
+#~ msgid "Validate the research"
+#~ msgstr "Valider la recherche"
+
+#~ msgid "Coming soon"
+#~ msgstr "Arrive bientôt"
+
+#~ msgid "Coming soon."
+#~ msgstr "Arrive bientôt"
+
+#~ msgid "Price"
+#~ msgstr "Prix"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "Plate"
+#~ msgstr "Plat"
+
+#~ msgid "1 ingredient line"
+#~ msgstr "1 ingrédient par ligne"
+
+#~ msgid "ex: xxx, yyy, zzz"
+#~ msgstr "ex: xxx, yyy, zzz"
+
+#~ msgid "ex: 10.50"
+#~ msgstr "ex: 10.50"
+
+#~ msgid "Id"
+#~ msgstr "Id"
+
+#~ msgid "Dish"
+#~ msgstr "Plat"
+
+#~ msgid "Display menu"
+#~ msgstr "Afficher le menu"
+
+#~ msgid "Display the dish"
+#~ msgstr "Afficher le plat"
+
+#~ msgid "Composition of the menu"
+#~ msgstr "Composition du menu"
+
+#~ msgid "Menu : type"
+#~ msgstr "Menu : type"
+
+#~ msgid "Category of flat"
+#~ msgstr "Catégorie de plat"
+
+#~ msgid "Enabled"
+#~ msgstr "Etat"
+
+#~ msgid "Always visible"
+#~ msgstr "Toujours visible"
+
+#~ msgid "Link"
+#~ msgstr "Lien"
+
+#~ msgid "Width"
+#~ msgstr "Largeur"
+
+#~ msgid "URL Image"
+#~ msgstr "URL de l'image"
+
+#~ msgid "Text"
+#~ msgstr "Texte"
+
+#~ msgid "Border width"
+#~ msgstr "Largeur de la bordure"
+
+#~ msgid "Border color"
+#~ msgstr "Couleur de bordure"
+
+#~ msgid "Summary"
+#~ msgstr "Sommaire"
+
+#~ msgid "Settings"
+#~ msgstr "Configuration"
+
+#~ msgid "Enables / disables the functionality of the plugin"
+#~ msgstr "Activer / désactiver les fonctionnalités du plugin"
+
+#~ msgid "Indicates whether the popup should always be displayed or not."
+#~ msgstr "Indique si la popup doit toujours être affiché ou non."
+
+#~ msgid "URL link, which will be used when click on the image and / or text."
+#~ msgstr ""
+#~ "Lien URL, qui sera utilisé quand on clique sur l'image et / ou le texte."
+
+#~ msgid "Width of popup advertising."
+#~ msgstr "Largeur du popup publicitaire"
+
+#~ msgid "URL of the image you want to add popup advertising."
+#~ msgstr ""
+#~ "URL de l'image que vous voulez ajouter à votre du popup publicitaire."
+
+#~ msgid "Text you want to add popup advertising."
+#~ msgstr "Texte que vous voulez ajouter à votre du popup publicitaire."
+
+#~ msgid "Border width of popup advertising."
+#~ msgstr "Largeur de la bordure du popup publicitaire."
+
+#~ msgid "Border color of popup advertising."
+#~ msgstr "Couleur de la bordure du popup publicitaire."
+
+#~ msgid "Expanded"
+#~ msgstr "Expanded"
+
+#~ msgid "Infer"
+#~ msgstr "Infer"
+
+#~ msgid "API Version"
+#~ msgstr "Version API"
+
+#~ msgid ""
+#~ "By default a Hovercard displays a user's name, Twitter username, and "
+#~ "location. When the user clicks the ''more'' button in a Hovercard, it "
+#~ "will expand to reveal additional information such as the user's bio and "
+#~ "their latest Tweet. To render Hovercards in this expanded state by "
+#~ "default, pass an object literal as an argument when calling the "
+#~ "hovercards method and set the expanded property to true."
+#~ msgstr ""
+#~ "Par défaut, un Hovercard affiche un nom d'utilisateur, nom d'utilisateur "
+#~ "Twitter, et l'emplacement. Lorsque l'utilisateur clique sur le bouton'' "
+#~ "plus'' dans un Hovercard, il sera étendu à révéler des informations "
+#~ "supplémentaires comme la bio de l'utilisateur et son dernier tweet. Pour "
+#~ "rendre Hovercards dans cet état élargi par défaut, passez un objet "
+#~ "littéral comme argument lors de l'appel de la méthode hovercards et "
+#~ "définissez la propriété élargi à true."
+
+#~ msgid ""
+#~ "As mentioned above, the hovercards method will implicitly call the "
+#~ "linkifyUsers method against the body of the document. If Twitter "
+#~ "usernames have already been linkified server-side according to the same "
+#~ "pattern used by the linkifyUsers method, then it is possible to prevent "
+#~ "the hovercards method from linkifying users by passing an object literal "
+#~ "as an argument to when calling hovercards and setting the linkify "
+#~ "property to false."
+#~ msgstr ""
+#~ "Comme mentionné ci-dessus, la méthode hovercards implicitement appeler la "
+#~ "méthode linkifyUsers contre le corps du document. Si les noms "
+#~ "d'utilisateurs de Twitter ont déjà été linkified côté serveur selon le "
+#~ "même schéma utilisé par la méthode linkifyUsers, il est possible de "
+#~ "prévenir la méthode hovercards des utilisateurs linkifying en passant un "
+#~ "littéral d'objet comme argument lors de l'appel à hovercards et "
+#~ "définissant la propriété Linkify à false."
+
+#~ msgid ""
+#~ "Use the infer option to trigger Hovercards on elements whose text "
+#~ "contains a Twitter username. When the infer option is used, the "
+#~ "hovercards method will not call the linkifyUsers method. This is useful "
+#~ "when Twitter usernames have already been linkified by some other means. "
+#~ "For example: < a ...>Follow @biz on Twitter!</a>"
+#~ msgstr ""
+#~ "Utilisez l'option déduire pour déclencher Hovercards sur les éléments "
+#~ "dont le texte contient un nom d'utilisateur Twitter. Lorsque l'option "
+#~ "déduire est utilisé, la méthode hovercards va pas appeler la méthode "
+#~ "linkifyUsers. Ceci est utile lorsque les noms d'utilisateurs de Twitter "
+#~ "ont déjà été linkified par d'autres moyens. Par exemple: <a ...> Follow @ "
+#~ "biz sur Twitter </ a>"
+
+#~ msgid "checked"
+#~ msgstr "Coché"
+
+#~ msgid "unchecked"
+#~ msgstr "décoché"
+
+#~ msgid "Method used"
+#~ msgstr "Méthode utilisée"
+
+#~ msgid "Creator"
+#~ msgstr "Créateur"
+
+#~ msgid "xxx"
+#~ msgstr "xxx"
+
+#~ msgid "yyy"
+#~ msgstr "yyy"
+
+#~ msgid "Pinterest widget"
+#~ msgstr "Pinterest widget"
+
+#~ msgid "Position"
+#~ msgstr "Position"
+
+#~ msgid "Header"
+#~ msgstr "Entete"
+
+#~ msgid "Footer"
+#~ msgstr "Pied de page"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Min:60. Leave blank for 92"
+#~ msgstr "Min:60. Laisser vide pour 92"
+
+#~ msgid "Board Height"
+#~ msgstr "Hauteur zone"
+
+#~ msgid "Min:60. Leave blank for 175"
+#~ msgstr "Min:60. Laisser vide pour 175"
+
+#~ msgid "Min:130. Leave blank for auto"
+#~ msgstr "Min:130. Laisser vide pour automatique"
+
+#~ msgid "Pinterest URL"
+#~ msgstr "Pinterest URL"
+
+#~ msgid "Pinterest Shortcode"
+#~ msgstr "Pinterest Shortcode"
+
+#~ msgid "Example pinterest url"
+#~ msgstr "Exemple d'url pinterest"
+
+#~ msgid "Pinterest profil"
+#~ msgstr "Profil Pinterest"
+
+#~ msgid "Pinterest table"
+#~ msgstr "Table Pinterest"
+
+#~ msgid "image width"
+#~ msgstr "Largeur image"
+
+#~ msgid "Bloc width"
+#~ msgstr "Largeur zone"
+
+#~ msgid "Bloc height"
+#~ msgstr "Hauteur zone"
+
+#~ msgid "Buy with PayPal"
+#~ msgstr "Acheter via Paypal"
